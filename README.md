@@ -13,8 +13,8 @@ Once Certbot is installed then enter the following in your terminal:
 Select **Yes** for the question about IP logging.
 
 You will now be given two long strings that you need to copy into the Dockerfile that is now on your **production server**.
-1. From the section *Create a file containing just this data:*, copy the string into the CHALLENGE_TOKEN environment variable
-2. From the section *And make it available on your web server at this URL:*, copy the long random string from the URL that starts after */.well-known/acme-challenge/...* into the CHALLENGE_ADDRESS environment variable
+1. From the section *Create a file containing just this data*, copy the string into the CHALLENGE_TOKEN environment variable
+2. From the section *And make it available on your web server at this URL*, copy the long random string from the URL that starts after */.well-known/acme-challenge/...* into the CHALLENGE_ADDRESS environment variable
 
 On your **production server** you can now run:
 
