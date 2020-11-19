@@ -1,0 +1,16 @@
+{
+  "name": "ssl_server",
+  "version": "1.0.0",
+  "description": "The lightweight server to pass the acme-challenge for Certbot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "skinnypigeon",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}

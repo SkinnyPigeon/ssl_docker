@@ -1,0 +1,9 @@
+version: '3'
+services:
+  certbot_helper:
+    container_name: certbot_helper
+    ports: 
+      - "80:80"
+    build: .
+    stdin_open: true
+    tty: true
