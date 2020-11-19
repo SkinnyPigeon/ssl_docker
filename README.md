@@ -1,4 +1,4 @@
-# How to generate SSL ceritficate
+# How to generate SSL certificate
 
 Copy this directory to the production server that you are looking to gain an SSL certificate for:
 
@@ -7,6 +7,7 @@ Copy this directory to the production server that you are looking to gain an SSL
 On your **development machine**, follow the instruction to install Certbot on the [Certbot Website](https://certbot.eff.org/instructions) for a **Web Hosting Product** on the platform you're developing on.
 
 Once Certbot is installed then enter the following in your terminal:
+
 `$ sudo certbot -d yourdomain.com --manual certonly --debug-challenges`
 
 Select **Yes** for the question about IP logging.
